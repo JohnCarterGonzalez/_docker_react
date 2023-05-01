@@ -14,8 +14,8 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY
   secret_key_id: $AWS_SECRET_ACCESS_KEY
   region: "us-west-2"
-  app: "_docker_react_travisci_awseb_app"
-  env: "Development-docker-react" 
+  app: "docker_travis_awseb"
+  env: "development-docker-travis-awseb" 
   bucket_name: "elasticbeanstalk-us-west-2-968507404816"
   bucket_path: "_docker_react_travisci_awseb_app"
   on: 
